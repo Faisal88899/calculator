@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: url(./images\ \(1\).jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    table{
+        background: transparent;
+        margin: auto;
+        margin-top: 100px;
+        border: 2px solid transparent;
+        
+    }
+    input,button{
+        height: 100%;
+        width: 100%;
+        font-size: 3.0rem;
+        background: rgb(red, green, blue);
+        border-radius: 30px;
+    }
+    
+</style>
+<body>
+    
+<table>
+    <tr>
+        <th colspan="3"><input type="text" id="a"></th>
+        <th><input type="button" value="c" id="" onclick="mpt()"></th>
+    </tr>
+    <tr>
+        <th><input type="button" value="1" name="" id="" onclick="cal(1)"></th>
+        <th><input type="button" value="2" name="" id="" onclick="cal(2)"></th>
+        <th><input type="button" value="3" name="" id="" onclick="cal(3)"></th>
+        <th><input type="button" value="/" name="" id="" onclick="cal('/')"></th>
+    </tr>
+    
+        <tr>
+            <th><input type="button" value="4" name="" id="" onclick="cal(4)"></th>
+            <th><input type="button" value="5" name="" id="" onclick="cal(5)"></th>
+            <th><input type="button" value="6" name="" id="" onclick="cal(6)"></th>
+            <th><input type="button" value="*" name="" id="" onclick="cal('*')"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="7" name="" id="" onclick="cal(7)"></th>
+            <th><input type="button" value="8" name="" id="" onclick="cal(8)"></th>
+            <th><input type="button" value="9" name="" id="" onclick="cal(9)"></th>
+            <th><input type="button" value="-" name="" id="" onclick="cal('-')"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="." name="" id="" onclick="cal('.')"></th>
+            <th><input type="button" value="0" name="" id="" onclick="cal(0)"></th>
+            <th><input type="button" value="=" name="" id="" onclick="solution()"></th>
+            <th><input type="button" value="+" name="" id="" onclick="cal('+')"></th>
+        </tr>
+    
+
+</table>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
